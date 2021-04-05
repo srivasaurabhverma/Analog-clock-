@@ -1,0 +1,43 @@
+#clock{
+    position: relative;
+    margin:auto;
+    width: 40vw;
+    height: 40vw;
+    background-image: url('https://i.pinimg.com/originals/3b/16/8f/3b168f41c7bd08f685869ae9eaa2dc82.jpg');
+    background-size: 100%;
+    
+}
+
+#hrs , #min , #sec{
+     position:absolute;
+     background:black;
+     border-radius: 4px;
+     transform-origin: bottom;
+}
+
+#hrs{
+
+    width: 1.74%;
+    height: 24%;
+    top: 27%;
+    left: 48.68%;
+     
+}
+
+#min
+{
+    width: 1.4%;
+    height: 33%;
+    top: 18%;
+    left: 48.9%;
+     
+}
+
+#sec
+{
+    width: 0.98%;
+    height: 35%;
+    top: 16%;
+    left: 49%;
+     
+}
